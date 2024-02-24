@@ -1,6 +1,3 @@
-// Custom Script
-// Developed by: Samson.Onna
-// CopyRights : http://webthemez.com
 var customScripts = {
     profile: function () {
      	 var portfolio = $('#portfolio');
@@ -38,7 +35,6 @@ var customScripts = {
             filter: '',
             easing: 'swing',
             begin: function () {
-                //I get fired when the animation is starting
             },
             end: function () {
                    //I get fired when the animation is ending
@@ -50,7 +46,6 @@ var customScripts = {
 				
             },
             scrollChange: function ($currentListItem) {
-                //I get fired when you enter a section and I pass the list item of the section
 				if(!$('#main-nav ul li:first-child').hasClass('active')){
 					$('.header').addClass('addBg');
 				}else{
